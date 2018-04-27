@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "weapons.rusty.sword.title",
+    "description": "Una espada antigua totalmente oxidada, no parece valer mucho... Pero sirve para empezar!",
+    "atk": 5,
+    "value": 100
+  },
+  {
+    "id": 1,
+    "title": "weapons.shiny.sword.title",
+    "description": "El brillo la hace parecer filosa, pero sigue siendo una espada de segunda mano..",
+    "atk": 5,
+    "value": 500
+  }
+]
