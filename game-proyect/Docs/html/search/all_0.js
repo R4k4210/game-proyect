@@ -8,5 +8,6 @@ var searchData=
   ['array',['Array',['../namespace_lit_json.html#acd123a28f60df4f396dc0fcd8f9c9757a4410ec34d9e6c1a68100ca0ce033fb17',1,'LitJson']]],
   ['arrayend',['ArrayEnd',['../namespace_lit_json.html#aab19a256ec9a89316eb6afd67a5c9508a03e0b2db421eff9b75d3cffd9aa8e340',1,'LitJson']]],
   ['arraystart',['ArrayStart',['../namespace_lit_json.html#aab19a256ec9a89316eb6afd67a5c9508a1046518c67498429fe8028c8a96b83ad',1,'LitJson']]],
-  ['assestsfolder',['AssestsFolder',['../class_doxygen_window.html#a470870b3c6a44b3fe2f57870e39cfe55',1,'DoxygenWindow']]]
+  ['assestsfolder',['AssestsFolder',['../class_doxygen_window.html#a470870b3c6a44b3fe2f57870e39cfe55',1,'DoxygenWindow']]],
+  ['atk',['Atk',['../class_weapons.html#a1af13dc82fb9d921d38ac034cc0cb769',1,'Weapons']]]
 ];

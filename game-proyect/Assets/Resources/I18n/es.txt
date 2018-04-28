@@ -1,3 +1,5 @@
-#--Remember do not leave spaces between equals (=) sign, otherwise the key will be different--#
-weapons.rusty.sword.title    =   Espada Oxidada
-weapons.shiny.sword.title    =   Espada Resplandeciente
+#-- Weapons Keys --#
+weapons.rusty.sword.title         =   Espada Oxidada
+weapons.rusty.sword.description   =   Una espada antigua totalmente oxidada, no parece valer mucho... Pero sirve para empezar!
+weapons.shiny.sword.title         =   Espada Resplandeciente
+weapons.rusty.shiny.description   =   El brillo la hace parecer filosa, pero sigue siendo una espada de segunda mano..

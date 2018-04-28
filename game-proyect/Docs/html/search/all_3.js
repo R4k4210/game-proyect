@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['description',['Description',['../class_weapons.html#af719758fd10b5bae731b1980a8bb54db',1,'Weapons']]],
   ['docdirectory',['DocDirectory',['../class_doxygen_config.html#aea9ba41fe61487effafbeb77120749f0',1,'DoxygenConfig']]],
   ['double',['Double',['../namespace_lit_json.html#acd123a28f60df4f396dc0fcd8f9c9757ad909d38d705ce75386dd86e611a82f5b',1,'LitJson.Double()'],['../namespace_lit_json.html#aab19a256ec9a89316eb6afd67a5c9508ad909d38d705ce75386dd86e611a82f5b',1,'LitJson.Double()']]],
   ['doxygenconfig',['DoxygenConfig',['../class_doxygen_config.html',1,'']]],

@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['i18n',['I18n',['../class_i18n.html',1,'']]],
+  ['i18n_2ecs',['I18n.cs',['../_i18n_8cs.html',1,'']]],
+  ['i18ntexttranslator',['I18nTextTranslator',['../class_i18n_text_translator.html',1,'']]],
+  ['i18ntexttranslator_2ecs',['I18nTextTranslator.cs',['../_i18n_text_translator_8cs.html',1,'']]],
+  ['id',['Id',['../class_weapons.html#aa60b766a2dd2140517848a6f51d4fc78',1,'Weapons']]],
   ['ijsonwrapper',['IJsonWrapper',['../interface_lit_json_1_1_i_json_wrapper.html',1,'LitJson']]],
   ['ijsonwrapper_2ecs',['IJsonWrapper.cs',['../_i_json_wrapper_8cs.html',1,'']]],
   ['importerfunc_3c_20tjson_2c_20tvalue_20_3e',['ImporterFunc&lt; TJson, TValue &gt;',['../namespace_lit_json.html#af6f335cd368b5f784586a2e43bdab353',1,'LitJson']]],
@@ -16,8 +21,6 @@ var searchData=
   ['isobject',['IsObject',['../interface_lit_json_1_1_i_json_wrapper.html#aa733cc8aa5a59d2c9f1d49516cea3c83',1,'LitJson.IJsonWrapper.IsObject()'],['../class_lit_json_1_1_json_data.html#a91eca22459ae9926cdbfe81f31af48e8',1,'LitJson.JsonData.IsObject()'],['../class_lit_json_1_1_json_mock_wrapper.html#a0e0ca4781655113b5e0980eed62500b7',1,'LitJson.JsonMockWrapper.IsObject()']]],
   ['isstarted',['isStarted',['../class_doxy_thread_safe_output.html#afc9e32fd7203a5c6c74ee914241c3e79',1,'DoxyThreadSafeOutput']]],
   ['isstring',['IsString',['../interface_lit_json_1_1_i_json_wrapper.html#ad7cb2ed8581ddc80538306574b78b19e',1,'LitJson.IJsonWrapper.IsString()'],['../class_lit_json_1_1_json_data.html#aa622181370234bd316f105b365997468',1,'LitJson.JsonData.IsString()'],['../class_lit_json_1_1_json_mock_wrapper.html#a3cefed68b82b0a9b6b66ce886d69e623',1,'LitJson.JsonMockWrapper.IsString()']]],
-  ['item',['Item',['../class_item.html',1,'']]],
-  ['item_2ecs',['Item.cs',['../_item_8cs.html',1,'']]],
-  ['itemdatabase',['itemDataBase',['../classitem_data_base.html',1,'']]],
+  ['itemdatabase',['ItemDataBase',['../class_item_data_base.html',1,'']]],
   ['itemdatabase_2ecs',['ItemDataBase.cs',['../_item_data_base_8cs.html',1,'']]]
 ];

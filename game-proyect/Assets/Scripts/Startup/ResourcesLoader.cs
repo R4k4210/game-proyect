@@ -11,7 +11,7 @@ using System.IO;
 public class ResourcesLoader : MonoBehaviour {
 
     private static JsonData weaponData;
-    public static List<Weapons> weaponDataBase = new List<Weapons>();
+    public static Dictionary<int, Weapons> indexedWeaponsDataBase = new Dictionary<int, Weapons>();
     //public List<Armor> armorDataBase = new List<Armor>();
     //public List<Miscellaneous> miscellaneousDataBase = new List<Miscellaneous>();
     //public List<Consumable> consumableDataBase = new List<Consumable>();
@@ -23,17 +23,18 @@ public class ResourcesLoader : MonoBehaviour {
         weaponData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items/Weapons/Weapons.json"));
         Debug.Log("Calling the data constructor");
         ContructWeaponDataBase();
+
     }
 
     static void ContructWeaponDataBase()
     {
         for (int i = 0; i < weaponData.Count; i++)
         {
-            weaponDataBase.Add(new Weapons((int)weaponData[i]["id"],
-                                                weaponData[i]["title"].ToString(),
-                                                weaponData[i]["description"].ToString(),
-                                           (int)weaponData[i]["atk"],
-                                           (int)weaponData[i]["value"]));
+            indexedWeaponsDataBase.Add((int) weaponData[i]["id"], new Weapons((int)weaponData[i]["id"],
+                                                                           weaponData[i]["title"].ToString(),
+                                                                           weaponData[i]["description"].ToString(),
+                                                                      (int)weaponData[i]["atk"],
+                                                                      (int)weaponData[i]["value"]));
         }
     }
 }

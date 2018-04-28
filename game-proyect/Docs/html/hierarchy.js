@@ -9,6 +9,7 @@ var hierarchy =
     [ "EditorWindow", null, [
       [ "DoxygenWindow", "class_doxygen_window.html", null ]
     ] ],
+    [ "I18n", "class_i18n.html", null ],
     [ "IEquatable", null, [
       [ "LitJson.JsonData", "class_lit_json_1_1_json_data.html", null ]
     ] ],
@@ -25,7 +26,9 @@ var hierarchy =
     [ "LitJson.JsonReader", "class_lit_json_1_1_json_reader.html", null ],
     [ "LitJson.JsonWriter", "class_lit_json_1_1_json_writer.html", null ],
     [ "MonoBehaviour", null, [
-      [ "Item", "class_item.html", null ],
-      [ "itemDataBase", "classitem_data_base.html", null ]
+      [ "I18nTextTranslator", "class_i18n_text_translator.html", null ],
+      [ "ItemDataBase", "class_item_data_base.html", null ],
+      [ "ResourcesLoader", "class_resources_loader.html", null ],
+      [ "Weapons", "class_weapons.html", null ]
     ] ]
 ];
