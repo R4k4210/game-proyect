@@ -8,11 +8,11 @@ public class UIHandler : MonoBehaviour {
     public Object siguienteEscena;
 
 
-    public void SiguienteEscena()
+    public void NextScene(int asd)
     {
-        SceneManager.LoadScene(siguienteEscena.name);
+        SceneManager.LoadScene("Nivel1");
     }
-    public void Salir()
+    public void Exit()
     {
         Application.Quit();
     }

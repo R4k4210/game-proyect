@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Base
+    uniqueID: 676477149
+    locked: 0
+  - name: Obstaculos
+    uniqueID: 1182694951
+    locked: 0
+  - name: Personajes
+    uniqueID: 2291461133
+    locked: 0
