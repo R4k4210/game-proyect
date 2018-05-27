@@ -64,30 +64,30 @@ public class InputManager : MonoBehaviour {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 2);
-            return 2;
         }else if(GetAxis(Axis.Horizontal) < 0)
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 4);
-            return 4;
         }
         if (GetAxis(Axis.Vertical) > 0)
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 1);
-            return 1;
         }
         else if (GetAxis(Axis.Vertical) < 0)
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 3);
-            return 3;
         }
-        anim.SetBool("Walking", false);
-        anim.SetBool("Idle", true);
+        if(GetAxis(Axis.Horizontal) == 0 && GetAxis(Axis.Vertical) == 0)
+        {
+            anim.SetBool("Walking", false);
+            anim.SetBool("Idle", true);
+        }
+
         return 1;
     }
 
@@ -97,12 +97,12 @@ public class InputManager : MonoBehaviour {
     private void StopVertical() {rigid.velocity = new Vector2(rigid.velocity.x,0); }
 
 
-    private void MovementManager(int tipodemovimiento)
+    private void MovementManager(int movementType)
     {
         speedFactor = (gameManager.player.transform.localScale.x + gameManager.player.transform.localScale.y)/2;
         moveSpeed = gameManager.player.GetComponent<CharacterEntity>().Velocidad*speedFactor;
         //Use case 4, ignore other cases.
-        switch (tipodemovimiento)
+        switch (movementType)
         {
             case 1:
 #region "case 1"
@@ -163,9 +163,10 @@ public class InputManager : MonoBehaviour {
 #endregion
                 break;
             case 4:
+                GetDirection();
                 MoveHorizontal(GetAxis(Axis.Horizontal));
                 MoveVertical(GetAxis(Axis.Vertical));
-                GetDirection();
+                
                 break;
             default:
                 break;
