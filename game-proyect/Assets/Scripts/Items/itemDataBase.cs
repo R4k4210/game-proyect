@@ -8,9 +8,11 @@ public class ItemDataBase : MonoBehaviour {
 
     private void Start()
     {
-        Weapons w = new Weapons();
-        ResourcesLoader.indexedWeaponsDataBase.TryGetValue(0, out w);
-        Debug.Log(I18n.Fields[w.Title]);
+        for (int i = 0; i< ResourcesLoader.indexedWeaponsDataBase.Count; i++) {
+            Weapons w = new Weapons();
+            ResourcesLoader.indexedWeaponsDataBase.TryGetValue(i, out w);
+            Debug.Log(w.ToString());
+        }
     }
 
 }

@@ -12,29 +12,48 @@ public class ResourcesLoader : MonoBehaviour {
 
     private static JsonData weaponData;
     public static Dictionary<int, Weapons> indexedWeaponsDataBase = new Dictionary<int, Weapons>();
-    //public List<Armor> armorDataBase = new List<Armor>();
-    //public List<Miscellaneous> miscellaneousDataBase = new List<Miscellaneous>();
-    //public List<Consumable> consumableDataBase = new List<Consumable>();
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void OnBeforeSceneLoadRuntimeMethod()
     {
         Debug.Log("Getting all data from Json");
         weaponData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items/Weapons/Weapons.json"));
-        Debug.Log("Calling the data constructor");
+        Debug.Log("Calling the data constructor a");
         ContructWeaponDataBase();
 
     }
 
+    /// <summary>
+    /// Create the Weapons Disctionary from JSON File used as data base.
+    /// </summary>
     static void ContructWeaponDataBase()
     {
         for (int i = 0; i < weaponData.Count; i++)
         {
-            indexedWeaponsDataBase.Add((int) weaponData[i]["id"], new Weapons((int)weaponData[i]["id"],
-                                                                           weaponData[i]["title"].ToString(),
-                                                                           weaponData[i]["description"].ToString(),
-                                                                      (int)weaponData[i]["atk"],
-                                                                      (int)weaponData[i]["value"]));
+            if ((bool)weaponData[i]["range"]["ranged"] == true)
+            {
+                indexedWeaponsDataBase.Add((int)weaponData[i]["id"], new Weapons((int)weaponData[i]["id"],
+                                                                                      weaponData[i]["title"].ToString(),
+                                                                                      weaponData[i]["description"].ToString(),
+                                                                                 (int)weaponData[i]["atk"],
+                                                                                (bool)weaponData[i]["stackable"],
+                                                                                      weaponData[i]["slug"].ToString(),
+                                                                                 (int)weaponData[i]["value"],
+                                                                                (bool)weaponData[i]["range"]["ranged"],
+                                                                                 (int)weaponData[i]["range"]["distance"],
+                                                                                 (int)weaponData[i]["range"]["speed"]));
+            }
+            else {
+                indexedWeaponsDataBase.Add((int)weaponData[i]["id"], new Weapons((int)weaponData[i]["id"],
+                                                                                      weaponData[i]["title"].ToString(),
+                                                                                      weaponData[i]["description"].ToString(),
+                                                                                 (int)weaponData[i]["atk"],
+                                                                                (bool)weaponData[i]["stackable"],
+                                                                                      weaponData[i]["slug"].ToString(),
+                                                                                 (int)weaponData[i]["value"],
+                                                                                (bool)weaponData[i]["range"]["ranged"]));
+                                                                              
+            }
         }
     }
 }
