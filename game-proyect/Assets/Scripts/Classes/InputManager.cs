@@ -25,10 +25,29 @@ public class InputManager : MonoBehaviour {
         anim = gameManager.player.GetComponent<Animator>();
     }
 
-    public void GetVerticalInput(Vertical input) { if (input == Vertical.up) { yAxis = 1; } else if (input == Vertical.down) { yAxis = -1; } }
-    public void ResetVerticalInput() { yAxis = 0; }
-    public void GeHorizontalInput(Horizontal input) { if (input == Horizontal.right) { xAxis = 1; } else if (input == Horizontal.left) { xAxis = -1; } }
-    public void ResetHorizontalInput() { xAxis = 0; }
+    public void GetVerticalInput(Vertical input) {
+        if (input == Vertical.up) {
+            yAxis = 1;
+        } else if (input == Vertical.down) {
+            yAxis = -1;
+        }
+    }
+
+    public void ResetVerticalInput() {
+        yAxis = 0;
+    }
+
+    public void GeHorizontalInput(Horizontal input) {
+        if (input == Horizontal.right) {
+            xAxis = 1;
+        } else if (input == Horizontal.left) {
+            xAxis = -1;
+        }
+    }
+
+    public void ResetHorizontalInput() {
+        xAxis = 0;
+    }
 
     private float GetAxis(Axis axis)
     {
@@ -59,7 +78,10 @@ public class InputManager : MonoBehaviour {
 
     private int GetDirection()
     {
-        if(GetAxis(Axis.Horizontal) > 0)
+        //Make the movement weight 1, if it is 0, u cant see the movement.
+        anim.SetLayerWeight(1, 1);
+
+        if (GetAxis(Axis.Horizontal) > 0)
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
@@ -84,6 +106,7 @@ public class InputManager : MonoBehaviour {
         }
         if(GetAxis(Axis.Horizontal) == 0 && GetAxis(Axis.Vertical) == 0)
         {
+            anim.SetLayerWeight(1, 0);
             anim.SetBool("Walking", false);
             anim.SetBool("Idle", true);
         }
@@ -91,10 +114,21 @@ public class InputManager : MonoBehaviour {
         return 1;
     }
 
-    private void MoveHorizontal(float movement){rigid.velocity = new Vector2(movement * moveSpeed, rigid.velocity.y);}
-    private void MoveVertical(float movement){rigid.velocity = new Vector2(rigid.velocity.x,movement * moveSpeed);}
-    private void StopHorizontal() {rigid.velocity = new Vector2(0, rigid.velocity.y); }
-    private void StopVertical() {rigid.velocity = new Vector2(rigid.velocity.x,0); }
+    private void MoveHorizontal(float movement){
+        rigid.velocity = new Vector2(movement * moveSpeed, rigid.velocity.y);
+    }
+
+    private void MoveVertical(float movement){
+        rigid.velocity = new Vector2(rigid.velocity.x,movement * moveSpeed);
+    }
+
+    private void StopHorizontal() {
+        rigid.velocity = new Vector2(0, rigid.velocity.y);
+    }
+
+    private void StopVertical() {
+        rigid.velocity = new Vector2(rigid.velocity.x,0);
+    }
 
 
     private void MovementManager(int movementType)
