@@ -1,0 +1,40 @@
+[
+  {
+    "id": 0,
+    "title": "weapons.rusty.sword.title",
+    "description": "weapons.rusty.sword.description",
+    "atk": 5,
+    "stackable": false,
+	"slug": "rusty_sword",
+    "value": 100,
+	"range": {
+		"ranged": false
+	}
+  },
+  {
+    "id": 1,
+    "title": "weapons.shiny.sword.title",
+    "description": "weapons.rusty.shiny.description",
+    "atk": 10,
+    "stackable": false,
+	"slug": "shiny_sword",
+    "value": 500,
+	"range": {
+		"ranged": false
+	}
+  },
+  {
+    "id": 2,
+    "title": "weapons.old.bow.title",
+    "description": "weapons.old.bow.description",
+    "atk": 15,
+    "stackable": false,
+	"slug": "old_bow",
+    "value": 1500,
+	"range": {
+		"ranged": true,
+		"distance": 150,
+		"speed": 5
+	}
+  }
+]

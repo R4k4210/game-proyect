@@ -1,0 +1,7 @@
+#-- Weapons Keys --#
+weapons.rusty.sword.title			=   Espada Oxidada
+weapons.rusty.sword.description		=   Una espada antigua totalmente oxidada, no parece valer mucho... Pero sirve para empezar!
+weapons.shiny.sword.title			=   Espada Resplandeciente
+weapons.rusty.shiny.description		=   El brillo la hace parecer filosa, pero sigue siendo una espada de segunda mano..
+weapons.old.bow.title				=   Arco viejo
+weapons.old.bow.description			=	Un arco bastante viejo que aun funciona.
