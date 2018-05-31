@@ -8,7 +8,7 @@ using System.IO;
 /**
  * Load all json resources (weapons, consumables, armors, maps, npc, etc..)
  */ 
-public class ResourcesLoader : MonoBehaviour {
+public class ResourcesLoader {
 
     private static JsonData weaponData;
     public static Dictionary<int, Weapons> indexedWeaponsDataBase = new Dictionary<int, Weapons>();

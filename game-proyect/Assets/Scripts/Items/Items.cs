@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Items : MonoBehaviour {
+public class Items {
 
     public int Id { get; set; }
     public string Title { get; set; }
