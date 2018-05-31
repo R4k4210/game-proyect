@@ -13,13 +13,17 @@ public class ResourcesLoader : MonoBehaviour {
     private static JsonData weaponData;
     public static Dictionary<int, Weapons> indexedWeaponsDataBase = new Dictionary<int, Weapons>();
 
+    private static QuestRepository questRepository;
+
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void OnBeforeSceneLoadRuntimeMethod()
     {
-        Debug.Log("Getting all data from Json");
+       /* Debug.Log("Getting all data from Json");
         weaponData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items/Weapons/Weapons.json"));
         Debug.Log("Calling the data constructor a");
-        ContructWeaponDataBase();
+        ContructWeaponDataBase();*/
+        questRepository = new QuestRepository();
+        questRepository.loadQuests();
 
     }
 

@@ -1,0 +1,20 @@
+{
+	"id" : 0,
+	"title" : "Test Quest 1",
+	"description" : "Test Quest 1 with 2 goals",
+	"goals" : [
+		{
+			"type" : "KILL",
+			"entityID" : 0,
+			"quantityNeeded" : 20
+		},
+		{
+			"type" : "RECOLLECT",
+			"entityID" : 0,
+			"quantityNeeded" : 15
+		}
+		
+	]
+			
+	
+}

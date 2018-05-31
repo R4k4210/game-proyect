@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ManagerGeneral : MonoBehaviour {
+public class GameManager : MonoBehaviour {
 
     public GameObject player;
     public EntidadPersonaje personaje;
