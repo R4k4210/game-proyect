@@ -6,9 +6,16 @@ public class Quest {
 
     public int id { get; set; }
     public string title { get; set; }
-    public string description { get; set; }
-    public List<Goal> goals { get; set; }
+    public string description { get; }
+    public List<Goal> goals { get; }
 
+
+    public Quest(int id, string title, string description, List<Goal> goals) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.goals = goals;
+    }
 
     /// <summary>
     ///     Gets the quest progression

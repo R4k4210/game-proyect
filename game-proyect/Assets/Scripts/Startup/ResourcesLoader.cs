@@ -18,13 +18,10 @@ public class ResourcesLoader : MonoBehaviour {
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void OnBeforeSceneLoadRuntimeMethod()
     {
-       /* Debug.Log("Getting all data from Json");
+        Debug.Log("Getting all data from Json");
         weaponData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items/Weapons/Weapons.json"));
         Debug.Log("Calling the data constructor a");
-        ContructWeaponDataBase();*/
-        questRepository = new QuestRepository();
-        questRepository.loadQuests();
-
+        ContructWeaponDataBase();
     }
 
     /// <summary>

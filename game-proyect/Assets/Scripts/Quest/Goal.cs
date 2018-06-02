@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Goal{
-    public GoalType type { get; set; }
+    public GoalType type { get; }
     public GoalStatus status { get; set; }
-    public int entityID { get; set; }
-    public int quantityNeeded { get; set; }
+    public int entityID { get; }
+    public int quantityNeeded { get; }
     public int quantityDone { get; set; }
 
     public Goal(GoalType type, int entityID, int quantityNeeded) {

@@ -1,20 +1,37 @@
-{
-	"id" : 0,
-	"title" : "Test Quest 1",
-	"description" : "Test Quest 1 with 2 goals",
-	"goals" : [
-		{
-			"type" : "KILL",
-			"entityID" : 0,
-			"quantityNeeded" : 20
-		},
-		{
-			"type" : "RECOLLECT",
-			"entityID" : 0,
-			"quantityNeeded" : 15
-		}
-		
-	]
+[
+	{
+		"id" : 0,
+		"title" : "Test Quest 1",
+		"description" : "Test Quest 1 with 2 goals",
+		"goals" : [
+			{
+				"type" : "KILL",
+				"entityID" : 0,
+				"quantityNeeded" : 20
+			},
+			{
+				"type" : "RECOLLECT",
+				"entityID" : 0,
+				"quantityNeeded" : 15
+			}
 			
-	
-}
+		]
+				
+		
+	},
+	{
+		"id" : 1,
+		"title" : "Test Quest 2",
+		"description" : "Test Quest 2 with 1 goal",
+		"goals" : [
+			{
+				"type" : "KILL",
+				"entityID" : 1,
+				"quantityNeeded" : 17
+			}		
+			
+		]
+				
+		
+	}
+]
