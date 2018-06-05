@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Goal{
-    public GoalType type { get; }
+    public GoalType type { get; private set; }
     public GoalStatus status { get; set; }
-    public int entityID { get; }
-    public int quantityNeeded { get; }
+    public int entityID { get; private set; }
+    public int quantityNeeded { get; private set; }
     public int quantityDone { get; set; }
 
     public Goal(GoalType type, int entityID, int quantityNeeded) {
@@ -17,9 +17,12 @@ public class Goal{
     }
 
     public void addQuantityDone(int quantity) {
-        this.quantityDone += quantity;
-        if (quantityDone >= quantityNeeded) {
-            this.status = GoalStatus.COMPLETED;
+        if (status.Equals(GoalStatus.IN_PROGRESS)) { 
+            this.quantityDone += quantity;
+            if (quantityDone >= quantityNeeded) {
+                Debug.Log("Goal Completed");
+                this.status = GoalStatus.COMPLETED;
+            }
         }
     }
 

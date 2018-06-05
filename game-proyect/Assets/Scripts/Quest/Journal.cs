@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class Journal
 {
-    public List<Quest> questsInProgress { get; }
-    public List<Quest> questsCompleted { get; }
+    public List<Quest> questsInProgress { get; private set; }
+    public List<Quest> questsCompleted { get; private set; }
     public QuestRepository questRepository = new QuestRepository();
 
     public Journal() {
@@ -47,19 +47,34 @@ public class Journal
     /// <param name="goalType">the goalType based on the event triggered</param>
     /// <param name="quantity">the quantity to add or substract to goal progress</param>
     /// <param name="action">the action determines the operation to apply to goal progress</param>
-    public void registerProgress(int entityID, GoalType goalType, int quantity, JournalAction action) {
-        questsInProgress.FindAll(q => (q.hasGoalForTypeAndEntity(entityID, goalType))).ConvertAll(q => q.goals)
-                        .ForEach(goals => goals.ForEach(goal => {
-                            if (action.Equals(JournalAction.ADD)) {
+    public void registerProgress(int entityID, GoalType goalType, int quantity, JournalAction action)
+    {
+        questsInProgress.ConvertAll(q => q.findApplicableGoals(entityID, goalType))
+                        .ForEach(goals => goals.ForEach(goal =>
+                        {
+                            if (action.Equals(JournalAction.ADD))
+                            {
                                 goal.addQuantityDone(quantity);
-                            } else if (action.Equals(JournalAction.SUBSTRACT)) {
+                            }
+                            else if (action.Equals(JournalAction.SUBSTRACT))
+                            {
                                 goal.removeQuantityDone(quantity);
                             }
                         })
                      );
-
+        printProgress();
         questsCompleted.AddRange(questsInProgress.FindAll(q => q.getProgress() == 100));
         questsInProgress.FindAll(q => q.getProgress() == 100)
                         .ForEach(q => this.dismissQuest(q.id));
+        
+    }
+
+    private void printProgress(){
+        questsInProgress.ForEach(q =>
+            {
+                Debug.Log("Quest " + q.title + " Total Progress: " + q.getProgress() + " % ");
+                q.goals.ForEach(g => Debug.Log("Entity Needed: " + g.entityID + " Progress: " + g.quantityDone + " / " + g.quantityNeeded));                
+            }
+        );
     }
 }

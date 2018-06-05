@@ -10,17 +10,13 @@ public class QuestManager : MonoBehaviour {
 	void Start () {
         journal = new Journal();
         journal.takeQuest(0);
-        journal.registerProgress();
-	}
+        ItemEvents.itemPickupEvent += pickupItem;
+
+    }
 	
-	// Update is called once per frame
-	void Update () {
-        Debug.Log("Quests in progress: ");
-        journal.questsInProgress.ForEach(
-            quest => {
-                Debug.Log(quest.title + " - " + quest.description);                  
-                Debug.Log("Progress: " + quest.getProgress() + "%");
-            }        
-        );
-	}
+    private void pickupItem(int entityID, int quantity) {
+        this.journal.registerProgress(entityID, GoalType.RECOLLECT, quantity, JournalAction.ADD);
+    }
+
+ 
 }

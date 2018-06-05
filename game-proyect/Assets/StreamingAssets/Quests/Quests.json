@@ -2,17 +2,23 @@
 	{
 		"id" : 0,
 		"title" : "Test Quest 1",
-		"description" : "Test Quest 1 with 2 goals",
+		"description" : "Test Quest 1 with 3 goals",
 		"goals" : [
 			{
-				"type" : "KILL",
+				"type" : "RECOLLECT",
 				"entityID" : 0,
 				"quantityNeeded" : 20
 			},
 			{
 				"type" : "RECOLLECT",
-				"entityID" : 0,
+				"entityID" : 1,
 				"quantityNeeded" : 15
+			}
+			,
+			{
+				"type" : "RECOLLECT",
+				"entityID" : 2,
+				"quantityNeeded" : 6
 			}
 			
 		]
