@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using System;
 
 public class GeneralManager : MonoBehaviour {
 
     public GameObject player;
     public GameObject camara;
     public Vector3 startpoint;
+    public GameObject CurrentTileMap;
     public CharacterEntity personaje;
+    public Tile tile;
 
     private void Awake()
     {
@@ -47,5 +51,8 @@ public class GeneralManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         CamaraPosicion();
-	}
+        //Debug.Log(CurrentTileMap.GetComponent<Tilemap>().GetTile(new Vector3Int((Int32)player.transform.position.x, (Int32)player.transform.position.y,(Int32)player.transform.position.z)).name);
+        //CurrentTileMap.GetComponent<Tilemap>().SetTile(new Vector3Int((Int32)player.transform.position.x, (Int32)player.transform.position.y, (Int32)player.transform.position.z), CurrentTileMap.GetComponent<Tilemap>().GetTile(new Vector3Int((Int32)player.transform.position.x, (Int32)player.transform.position.y, (Int32)player.transform.position.z)));
+        //CurrentTileMap.GetComponent<Tilemap>().SetTile(new Vector3Int((Int32)player.transform.position.x, (Int32)player.transform.position.y, (Int32)player.transform.position.z),tile);
+    }
 }

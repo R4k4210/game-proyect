@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 5a3a8cb0f53c4ba4b84dcabd3f078ad0
-timeCreated: 1527561807
-licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: 2Gen's 64x64 Mixed Tileset_0
@@ -260,7 +258,8 @@ TextureImporter:
     21300506: 2Gen's 64x64 Mixed Tileset_253
     21300508: 2Gen's 64x64 Mixed Tileset_254
     21300510: 2Gen's 64x64 Mixed Tileset_255
-  serializedVersion: 4
+  externalObjects: {}
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -300,89 +299,118 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: tvOS
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Tizen
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Tizen
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Samsung TV
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Samsung TV
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -400,6 +428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa0ccbf88f6251647bc552df30187160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_1
       rect:
@@ -414,6 +448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b006c84f4983c84e923ea3a2502cf9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_2
       rect:
@@ -428,6 +468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1a7b55f0606aa124aa16ae02ab6a4bab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_3
       rect:
@@ -442,6 +488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea855b7fb05075749a878806ba410aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_4
       rect:
@@ -456,6 +508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f425a76074468b4dbf01743b4aa6346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_5
       rect:
@@ -470,6 +528,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8953285e5630244aaab1b46ec516eb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_6
       rect:
@@ -484,6 +548,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05cd6ce28a945d340963fda1bf9b2dda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_7
       rect:
@@ -498,6 +568,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 15d1ac22eca078042a1c342f27a565ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_8
       rect:
@@ -512,6 +588,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a49bf234863e7264caf0e33ef45a1da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_9
       rect:
@@ -526,6 +608,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 79bb82dc60b10ba449a7864714eaa6d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_10
       rect:
@@ -540,6 +628,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf1dfbd45566d4a4c99fa20bb8515cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_11
       rect:
@@ -554,6 +648,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b1f55dd48139afc49af95d731ee6f719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_12
       rect:
@@ -568,6 +668,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ef6a8bf97ef445740b83a0ad3780edfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_13
       rect:
@@ -582,6 +688,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f0bd277ba398383449c9bb1e80ef2fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_14
       rect:
@@ -596,6 +708,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3c2e1af445ea2d4cac6df2116bf039d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_15
       rect:
@@ -610,6 +728,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa843c12bbdcdb446886b2b238b4c336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_16
       rect:
@@ -624,6 +748,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd60bf155f67d70438a061e2c42d2e06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_17
       rect:
@@ -638,6 +768,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c556cfd0f69d61439b72fa1782e6ebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_18
       rect:
@@ -652,6 +788,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d756ffaed4726dd4fbc674bd50b2ca67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_19
       rect:
@@ -666,6 +808,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5096e9c24557294f920d21e2c915202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_20
       rect:
@@ -680,6 +828,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f4989a23a70df34429adf11c8bc8b818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_21
       rect:
@@ -694,6 +848,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c6fe7097ce93bb4e817e424e061e744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_22
       rect:
@@ -708,6 +868,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0443209ada0aa6c45bf3dae9c492479f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_23
       rect:
@@ -722,6 +888,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa3cd0ff4773af841a5ac8e111625e1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_24
       rect:
@@ -736,6 +908,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b6211a67f7c7184d9e8895f3f68ae33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_25
       rect:
@@ -750,6 +928,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9513a921b27af424db9a3f91553ebc5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_26
       rect:
@@ -764,6 +948,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7759fbacd8003ee44afd12c1aa3b97fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_27
       rect:
@@ -778,6 +968,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c708b25a5e466f245a7b2e61a006daaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_28
       rect:
@@ -792,6 +988,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07950cca3fd797e4295a8f806e514def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_29
       rect:
@@ -806,6 +1008,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45c7610c2a44ecb47af0438699687698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_30
       rect:
@@ -820,6 +1028,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9ea01e280ab3e2a4982cdff24f58bb7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_31
       rect:
@@ -834,6 +1048,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 76d946bcdd319fd4f9c07c97bf7e1fc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_32
       rect:
@@ -848,6 +1068,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b7a2e43e40aa71c42a2d38cb4fc25071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_33
       rect:
@@ -862,6 +1088,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa6254157449049886cb3631223e81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_34
       rect:
@@ -876,6 +1108,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9508acab055e3d541b741c0cc5e95eaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_35
       rect:
@@ -890,6 +1128,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66be00f3b0dad134ba7de849933624f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_36
       rect:
@@ -904,6 +1148,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8605b0874a7a9f4b8a70a1827040292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_37
       rect:
@@ -918,6 +1168,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 071b9cbd296ec8645b4738f942c849bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_38
       rect:
@@ -932,6 +1188,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 19182647e01ca534392de7376b41e712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_39
       rect:
@@ -946,6 +1208,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3f517a04aada66540ac4002420898415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_40
       rect:
@@ -960,6 +1228,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0323725cfa0b03040b79443dbb6621a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_41
       rect:
@@ -974,6 +1248,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9d4221c3ae032d64bb7f98b33ab24afc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_42
       rect:
@@ -988,6 +1268,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7ad93522441e4db40ac5c50d3156eda4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_43
       rect:
@@ -1002,6 +1288,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9c150a52e498fd245b867b9ee0aba200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_44
       rect:
@@ -1016,6 +1308,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b5c01abfee86dd4094388aed4d89d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_45
       rect:
@@ -1030,6 +1328,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 55d4e8f8c10ffc04eb91e8b28ddc489b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_46
       rect:
@@ -1044,6 +1348,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1085e14a8a0962644bcdfbd822742cda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_47
       rect:
@@ -1058,6 +1368,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f42f52e59210a074a9909d6deaafdead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_48
       rect:
@@ -1072,6 +1388,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9e57125ab27162f489d22b2471ac6b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_49
       rect:
@@ -1086,6 +1408,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7ef221d569fc7bc4dbe57c7e12714d8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_50
       rect:
@@ -1100,6 +1428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf2424ce5362dc64a9f88a064af18b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_51
       rect:
@@ -1114,6 +1448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1312d92f00e6b094285f78ec7170d571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_52
       rect:
@@ -1128,6 +1468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85877a8b3e671034eb0f8213dd49bcef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_53
       rect:
@@ -1142,6 +1488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84faaa96a616d824497852c32c6d38a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_54
       rect:
@@ -1156,6 +1508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 37ca8b9e187e7524c8bdbfa77556ec51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_55
       rect:
@@ -1170,6 +1528,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7695241d0a323eb438ab784e52bc193a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_56
       rect:
@@ -1184,6 +1548,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2111992b5011e444cbec3b62385af44c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_57
       rect:
@@ -1198,6 +1568,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b3462553c87b46bbdf6147076aad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_58
       rect:
@@ -1212,6 +1588,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f6f5ed7e4bed86849a1cb82ca7a71a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_59
       rect:
@@ -1226,6 +1608,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 120b8342be059a543942b92fa6e37de0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_60
       rect:
@@ -1240,6 +1628,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7ed6336e91da3a54a91c7a693fd22a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_61
       rect:
@@ -1254,6 +1648,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 34eae3a488ba739468b2cfd3ca9570ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_62
       rect:
@@ -1268,6 +1668,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0da730c2c03565041a33bd06a66527d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_63
       rect:
@@ -1282,6 +1688,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e64370cf444bbd4d94de88e9dc3a049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_64
       rect:
@@ -1296,6 +1708,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 504de273b7dcd0d4aa8f1c345ee8cef9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_65
       rect:
@@ -1310,6 +1728,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7b45162a3b3656c4b906f22b47928984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_66
       rect:
@@ -1324,6 +1748,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ff495315d896d094f8c8a88c8613ef2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_67
       rect:
@@ -1338,6 +1768,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4a6aba68b392cef449fd278a7f58983c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_68
       rect:
@@ -1352,6 +1788,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 171c18b8ec8a7f44ea98cb24423276d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_69
       rect:
@@ -1366,6 +1808,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 76a1a4dc2d1634c458f56df8bb3b1144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_70
       rect:
@@ -1380,6 +1828,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7918fdc3cf5ce964e8c80d3195e63611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_71
       rect:
@@ -1394,6 +1848,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 14a21868d448f564c96612346dcddd71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_72
       rect:
@@ -1408,6 +1868,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 999f2db5507ec69449253e5b36e308f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_73
       rect:
@@ -1422,6 +1888,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b61b89d65a0560049a0070a5e0019033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_74
       rect:
@@ -1436,6 +1908,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 91c33def16cf8774e876e4681abea129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_75
       rect:
@@ -1450,6 +1928,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f3459c41b28503d4787cb1d702914fb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_76
       rect:
@@ -1464,6 +1948,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b88f32e3cd165ac469cc8e786aa117e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_77
       rect:
@@ -1478,6 +1968,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dd33239878d2b9147bd68878a6cde401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_78
       rect:
@@ -1492,6 +1988,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9cb24272afd3364bb563470ed57e0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_79
       rect:
@@ -1506,6 +2008,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7a49f73242775904d956b11cca6cb147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_80
       rect:
@@ -1520,6 +2028,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66b856bac58162842bb30b0e80432bcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_81
       rect:
@@ -1534,6 +2048,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 60d9e5faf51790046b9294946d714f63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_82
       rect:
@@ -1548,6 +2068,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c38e41467d95054f9403798c93fd453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_83
       rect:
@@ -1562,6 +2088,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 633e4fecfe322a54c9ef4b3f33a84b77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_84
       rect:
@@ -1576,6 +2108,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47ddb8fd95bd3f94889bd2362c9a3016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_85
       rect:
@@ -1590,6 +2128,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd69e92dc2e2145428e0cc2ed4536998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_86
       rect:
@@ -1604,6 +2148,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fe88fb4703117c648941594172af5f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_87
       rect:
@@ -1618,6 +2168,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29837762f85a95b4f9eb24c9aea1a993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_88
       rect:
@@ -1632,6 +2188,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b4dccd22bac633459da63cac793a05d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_89
       rect:
@@ -1646,6 +2208,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 287c2bfbf726a5d4abba1a3b5a4bca26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_90
       rect:
@@ -1660,6 +2228,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d71248a94cbee64bb83d89305ca75af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_91
       rect:
@@ -1674,6 +2248,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 813f8c1e9fbaa174e9f0953e5385275c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_92
       rect:
@@ -1688,6 +2268,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d878ea0cf0f34cbb35f1a27c86926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_93
       rect:
@@ -1702,6 +2288,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 92603ad8febab3540b19cbc419e2742b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_94
       rect:
@@ -1716,6 +2308,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2c88fcd9c1cc7341be4a88802d68046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_95
       rect:
@@ -1730,6 +2328,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 069cedbefa68f164f9604bd1966e7b55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_96
       rect:
@@ -1744,6 +2348,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01785fdae06683e4b9edc39d6fcd91ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_97
       rect:
@@ -1758,6 +2368,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8131a57264d68c1419b4345d5e96d191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_98
       rect:
@@ -1772,6 +2388,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01181de34b22c2a47a02ef02110fa780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_99
       rect:
@@ -1786,6 +2408,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c828ff2af555f4342a21ca0233a23b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_100
       rect:
@@ -1800,6 +2428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d6983718b9a1f974e92949bc9e638055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_101
       rect:
@@ -1814,6 +2448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d36de96e2e356f43b2a8bd6b178020e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_102
       rect:
@@ -1828,6 +2468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1dd09d6fc95da6546a11c79fff716c9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_103
       rect:
@@ -1842,6 +2488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a432720979800994c811584785633d0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_104
       rect:
@@ -1856,6 +2508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 151eb08e0b9ef0c41bd9a27bebb2541d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_105
       rect:
@@ -1870,6 +2528,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9c800cc3dfb40dc4ab8bf16d608ea556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_106
       rect:
@@ -1884,6 +2548,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f11ec796784f46c4e8c6c66d2c39f843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_107
       rect:
@@ -1898,6 +2568,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4be05b42a31d4ec47933e6775ccda402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_108
       rect:
@@ -1912,6 +2588,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dfe0a6551e722b04791c26b50fb8bb20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_109
       rect:
@@ -1926,6 +2608,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 56b96e91be98cce4b9faaa2c516343c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_110
       rect:
@@ -1940,6 +2628,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 295f9195577ec5647b0bdf2931e038b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_111
       rect:
@@ -1954,6 +2648,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 681eec73831c2d44bb9d5ff22c18da74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_112
       rect:
@@ -1968,6 +2668,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 232cdee5a8d104d4b93c785e95636ede
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_113
       rect:
@@ -1982,6 +2688,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0bad1668cc77d844cb632b153bd50c64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_114
       rect:
@@ -1996,6 +2708,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd083bb651a430d46830e2a58a378889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_115
       rect:
@@ -2010,6 +2728,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 701115434cb451a48bac186f514ffe0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_116
       rect:
@@ -2024,6 +2748,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6708de9ec6796db4497469e3b7e7ea32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_117
       rect:
@@ -2038,6 +2768,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8bccaeb3df1440f4f8ce591cc88498bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_118
       rect:
@@ -2052,6 +2788,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3478dc029acf1c949a16fc2e2f86a43c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_119
       rect:
@@ -2066,6 +2808,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26fe9153f48378644b60c59eb2cdb77c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_120
       rect:
@@ -2080,6 +2828,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 278d2f94ad2deb847abd7fd97e4322aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_121
       rect:
@@ -2094,6 +2848,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 36cec6804cf4f0d4b87d7207cf682cbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_122
       rect:
@@ -2108,6 +2868,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9eeff2c20d0b924ebab3079ccaeb889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_123
       rect:
@@ -2122,6 +2888,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8e257de3806b69b4cb02ceef8f6b593f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_124
       rect:
@@ -2136,6 +2908,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3871101d04f620e4791442c1ca916ea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_125
       rect:
@@ -2150,6 +2928,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 71da4ae0d7c7eae489153f668e5850de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_126
       rect:
@@ -2164,6 +2948,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dd10a1a8db903074fa6bfa70a4a2af0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_127
       rect:
@@ -2178,6 +2968,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4b28841e63beca4fa017dbf00a502e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_128
       rect:
@@ -2192,6 +2988,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8f9779896f235594c9eeecffe9bf9ac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_129
       rect:
@@ -2206,6 +3008,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 18639fd63e00eeb458eed7d959d6735c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_130
       rect:
@@ -2220,6 +3028,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a53d4687b1570904d8cffa9550803112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_131
       rect:
@@ -2234,6 +3048,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b9d98c40030c29f49b8bf5977c301920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_132
       rect:
@@ -2248,6 +3068,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1a4f1707c3837bc4195cf46ebc426d7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_133
       rect:
@@ -2262,6 +3088,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 15c2896c672db87479f5564fc9f02473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_134
       rect:
@@ -2276,6 +3108,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb942bc01273f374481d27276c459c52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_135
       rect:
@@ -2290,6 +3128,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 93e385d75f28fb347a034053f37fcd63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_136
       rect:
@@ -2304,6 +3148,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 97492fda632fdd04d97e90e7402a3399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_137
       rect:
@@ -2318,6 +3168,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0f8255004e83e94a943d0a2e5caeb0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_138
       rect:
@@ -2332,6 +3188,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d556c6b1fbdc3844b1b50e8b2707374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_139
       rect:
@@ -2346,6 +3208,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6899b742a6f66274f9b335a084b93814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_140
       rect:
@@ -2360,6 +3228,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6b0fab11861a45abe796c3afd8d26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_141
       rect:
@@ -2374,6 +3248,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 51942b17d83947749b95424283a981dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_142
       rect:
@@ -2388,6 +3268,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8daba1695cce8a4e8c89d01df0b299d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_143
       rect:
@@ -2402,6 +3288,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 684413dff0d838049a35c563c325759a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_144
       rect:
@@ -2416,6 +3308,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7311f4798919f0c4999dce315d4a7985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_145
       rect:
@@ -2430,6 +3328,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6c6eea2f174f8c45bba0485b45a2e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_146
       rect:
@@ -2444,6 +3348,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 715509ea842ee1d42b05e69ccafe5d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_147
       rect:
@@ -2458,6 +3368,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0d97a1b055aafd7488bbdd9992706755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_148
       rect:
@@ -2472,6 +3388,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3a3b326d62d2c584b9b6366d975d32ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_149
       rect:
@@ -2486,6 +3408,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4bbb16e6bb56a3744a2fcf1306e23563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_150
       rect:
@@ -2500,6 +3428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64f72acbfade860429aef8cb3094dae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_151
       rect:
@@ -2514,6 +3448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8c6415748a7cf44b9f00e33423e7943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_152
       rect:
@@ -2528,6 +3468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 70fe146583fa30548a123af2a7139c0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_153
       rect:
@@ -2542,6 +3488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4c11725f79e0054b8623c3d9d63ff6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_154
       rect:
@@ -2556,6 +3508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 17f52cfa64c31014dbb396c6407bfe36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_155
       rect:
@@ -2570,6 +3528,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5880b9b22f5da2a42a2daa318520b3e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_156
       rect:
@@ -2584,6 +3548,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec6cbc103f67ba2448849e71bc01f955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_157
       rect:
@@ -2598,6 +3568,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 976538df9b95e6f44b6871db3b74096a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_158
       rect:
@@ -2612,6 +3588,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3d946c2dd15c5794b981a6f31d5a8154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_159
       rect:
@@ -2626,6 +3608,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 30807a2c4cfd74345bf1b6fd78b2d8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_160
       rect:
@@ -2640,6 +3628,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b22622d1b94a0934facab133914a401f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_161
       rect:
@@ -2654,6 +3648,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1c46fd6844568c14b807adf97d999d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_162
       rect:
@@ -2668,6 +3668,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b93954b5fde151c43b50417319f9e23b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_163
       rect:
@@ -2682,6 +3688,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac53b495b7bba1f4a999be6cd7ad014f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_164
       rect:
@@ -2696,6 +3708,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4062ca6309d52d5468300ae2e62f21ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_165
       rect:
@@ -2710,6 +3728,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f9216f05b38a88e4992e75ef062bbf9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_166
       rect:
@@ -2724,6 +3748,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e83d747d461444956b59c8862722b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_167
       rect:
@@ -2738,6 +3768,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b845f5b9e51297a4eaec73991c154b4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_168
       rect:
@@ -2752,6 +3788,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e8d84b557d92994a9175a8bcda8d5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_169
       rect:
@@ -2766,6 +3808,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 304a9e1d921acbd4ca79fc09b75dd5a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_170
       rect:
@@ -2780,6 +3828,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29b8e6504ec071d4183c85003e7da140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_171
       rect:
@@ -2794,6 +3848,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4e9726012df19c409985922ce399987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_172
       rect:
@@ -2808,6 +3868,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b2cfce033b291b843989cfa1555d2f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_173
       rect:
@@ -2822,6 +3888,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c27f58c959d6aec48a867e9c714eadb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_174
       rect:
@@ -2836,6 +3908,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c86fe67c3e00cf342bb70b6fda3f5462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_175
       rect:
@@ -2850,6 +3928,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3e3e16fabd931e479edd08a9684cc64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_176
       rect:
@@ -2864,6 +3948,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ecf316b94e026a74eb72c3182df8baee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_177
       rect:
@@ -2878,6 +3968,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9a38fe0368bb8bf4ba2fd6577f417609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_178
       rect:
@@ -2892,6 +3988,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8471fd97252a2374bb361a879d256a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_179
       rect:
@@ -2906,6 +4008,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ee4a1ff99cef69440803ed03e12a6afa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_180
       rect:
@@ -2920,6 +4028,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3cc791806b90348428ab701d19703cdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_181
       rect:
@@ -2934,6 +4048,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7886e921a3a4a854695f9fa7b832cf0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_182
       rect:
@@ -2948,6 +4068,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a58dc71e1894eb748849bcca393adc58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_183
       rect:
@@ -2962,6 +4088,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0a1aede6b8e73c45aed0a8d042829f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_184
       rect:
@@ -2976,6 +4108,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f94abe0ec94641469b1abd60c67691c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_185
       rect:
@@ -2990,6 +4128,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5531bcd46c240194a92d5d512653c614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_186
       rect:
@@ -3004,6 +4148,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f63b6d4bfc82352459c64d9f546f04cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_187
       rect:
@@ -3018,6 +4168,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7982ed646f485394e93b532871fa26b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_188
       rect:
@@ -3032,6 +4188,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7413211a57a33154882fdc57baf253d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_189
       rect:
@@ -3046,6 +4208,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8fa57c467d0aec4e873ef30f9aba996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_190
       rect:
@@ -3060,6 +4228,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d9c3cb47db2013498c1afe72f499079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_191
       rect:
@@ -3074,6 +4248,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 938364dc6a241c94197df55fb77b5bfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_192
       rect:
@@ -3088,6 +4268,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5aed166c876fcdb48bc103ab6acd582e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_193
       rect:
@@ -3102,6 +4288,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4bdbd11b80a202a4db68878a594b53f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_194
       rect:
@@ -3116,6 +4308,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5960a6db883726348872aa3ab35c596a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_195
       rect:
@@ -3130,6 +4328,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb4ee06f94a4841bf60c0143bad84a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_196
       rect:
@@ -3144,6 +4348,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6ca0482d04a52d44c80c77f18ff66fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_197
       rect:
@@ -3158,6 +4368,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b79844253c7e8864eb6689dc25ccc32b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_198
       rect:
@@ -3172,6 +4388,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1d682c26ae84fe24ea34b6c62572ac6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_199
       rect:
@@ -3186,6 +4408,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a92f342e6ac3f7f4d8c36fe22cbbcd68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_200
       rect:
@@ -3200,6 +4428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a31aa35c057ecd64db88a229f37a565b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_201
       rect:
@@ -3214,6 +4448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e00b28a758e60f2488d88f477ef3c9ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_202
       rect:
@@ -3228,6 +4468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca20417824dd75e46b7a4f839433e28d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_203
       rect:
@@ -3242,6 +4488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 74cd9e5daa8b4e7459fc1b0deb435865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_204
       rect:
@@ -3256,6 +4508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85874c85d1f2ace43ba614a5ef4695d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_205
       rect:
@@ -3270,6 +4528,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8d90843ba32cbb43b5d8828f523febe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_206
       rect:
@@ -3284,6 +4548,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f7178696ad418f347a7898e779afe43b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_207
       rect:
@@ -3298,6 +4568,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2a672fd00f61984aa7a2665d1b9713d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_208
       rect:
@@ -3312,6 +4588,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6d69b3c275175b44b3c3b1f35145733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_209
       rect:
@@ -3326,6 +4608,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 579e8b2fdf8ed0448b6882515de3e560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_210
       rect:
@@ -3340,6 +4628,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2152aa17f6b58d4d84974b8837f6643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_211
       rect:
@@ -3354,6 +4648,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 917a8bc93900d8d47a1a06cfd3ae9483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_212
       rect:
@@ -3368,6 +4668,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5e83ee837376ed4cbc62f1dae6453c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_213
       rect:
@@ -3382,6 +4688,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c202abb3471f59c4abc05c346c25f717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_214
       rect:
@@ -3396,6 +4708,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ae1affe3c7cb48a4b12cf9d7ca350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_215
       rect:
@@ -3410,6 +4728,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 92b2303f29365854383d2462a9978e0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_216
       rect:
@@ -3424,6 +4748,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f647f268bbd694f468568e81063f9cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_217
       rect:
@@ -3438,6 +4768,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04f98098f91ab0a45bc2dc67dc5a6d63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_218
       rect:
@@ -3452,6 +4788,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 40fe7648a0a20dc4ab6339f54d73f04a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_219
       rect:
@@ -3466,6 +4808,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 95dff8638bf2971438c3e33b9d128489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_220
       rect:
@@ -3480,6 +4828,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ae8bf805c5e94b24f964837056b86836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_221
       rect:
@@ -3494,6 +4848,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9376b100b91a8a4496d757e777c210f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_222
       rect:
@@ -3508,6 +4868,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 182c3a06ce0f87a438d6ab21c811d264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_223
       rect:
@@ -3522,6 +4888,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8e7f6c9e072ff8f4d94115d326515838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_224
       rect:
@@ -3536,6 +4908,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f51018894d5fd4f49b61c1483dfc7615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_225
       rect:
@@ -3550,6 +4928,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e863e0aa4232f964aa328e1c3234a60f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_226
       rect:
@@ -3564,6 +4948,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e9b4d55e7c570b4cb8b03ac8f3696fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_227
       rect:
@@ -3578,6 +4968,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b28e9659b1689247a53023fdf69386a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_228
       rect:
@@ -3592,6 +4988,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0edf0d69aca9d0f4ba32b30698475dae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_229
       rect:
@@ -3606,6 +5008,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 835c2ea0bac6b7844a0f836892e18b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_230
       rect:
@@ -3620,6 +5028,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b259237f8689c6489b189979f821c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_231
       rect:
@@ -3634,6 +5048,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2071fe444b201484f8d88873723b2503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_232
       rect:
@@ -3648,6 +5068,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 75a41ecfbdfe2b144b49b6eaf34e44af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_233
       rect:
@@ -3662,6 +5088,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f1800ff46c8afcd45a8e3f581dcbcd66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_234
       rect:
@@ -3676,6 +5108,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 94ae03a189afa7048a054a361989b8f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_235
       rect:
@@ -3690,6 +5128,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7316b5b89f59b14793372ada60cb408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_236
       rect:
@@ -3704,6 +5148,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b851fde6dec89b34ca16f0998a95f3b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_237
       rect:
@@ -3718,6 +5168,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 073b37309c225d246b2ad893f47212bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_238
       rect:
@@ -3732,6 +5188,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2babe139ab193d042b29d43d14a07fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_239
       rect:
@@ -3746,6 +5208,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25d72bc60277100458b9f88ebc57eaca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_240
       rect:
@@ -3760,6 +5228,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5227cad0bd65ac94f9d6927d3adc692f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_241
       rect:
@@ -3774,6 +5248,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b592a9fb93249e247b2e9d7d79c70bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_242
       rect:
@@ -3788,6 +5268,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 332e8fc8e98d7f54f81d8dd1d7bb1f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_243
       rect:
@@ -3802,6 +5288,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 173a003a6ac84784f9b25f1f2eb43e31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_244
       rect:
@@ -3816,6 +5308,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8e4aeea6bb62ab49b4278b386e971ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_245
       rect:
@@ -3830,6 +5328,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4f8180e780d80e45ba20a8fde221d5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_246
       rect:
@@ -3844,6 +5348,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fabac93a5553ba34dbe4047ac25e61e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_247
       rect:
@@ -3858,6 +5368,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7a642cc5a710c4744aafd26e237473c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_248
       rect:
@@ -3872,6 +5388,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa000aa7868912f4b95bd11326b33136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_249
       rect:
@@ -3886,6 +5408,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 76f3735bfc653344db0649681e9e49e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_250
       rect:
@@ -3900,6 +5428,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9a9f0d5c5bbe974082907deb76d0d26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_251
       rect:
@@ -3914,6 +5448,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08679f92b6ba2de42a420496c4b964d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_252
       rect:
@@ -3928,6 +5468,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb1e1c569dd669147b5cc88e270628c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_253
       rect:
@@ -3942,6 +5488,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03c760a23e1f9c546b44c6b1d288d9b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_254
       rect:
@@ -3956,6 +5508,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3054af3d9c707fc4ab8976c4c6394276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: 2Gen's 64x64 Mixed Tileset_255
       rect:
@@ -3970,8 +5528,20 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd7409962ab5d4b42a9eeb5b5e214277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

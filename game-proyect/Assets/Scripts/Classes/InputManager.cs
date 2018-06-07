@@ -76,42 +76,77 @@ public class InputManager : MonoBehaviour {
         return retorno;
     }
 
-    private int GetDirection()
+    private void GetDirection()
     {
         //Make the movement weight 1, if it is 0, u cant see the movement.
-        anim.SetLayerWeight(1, 1);
 
-        if (GetAxis(Axis.Horizontal) > 0)
-        {
-            anim.SetBool("Walking", true);
-            anim.SetBool("Idle", false);
-            anim.SetInteger("Direction", 2);
-        }else if(GetAxis(Axis.Horizontal) < 0)
+        anim.SetLayerWeight(1, 1);
+#if UNITY_STANDALONE
+
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 4);
         }
-        if (GetAxis(Axis.Vertical) > 0)
+         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            anim.SetBool("Walking", true);
+            anim.SetBool("Idle", false);
+            anim.SetInteger("Direction", 2);
+        }
+         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 1);
         }
-        else if (GetAxis(Axis.Vertical) < 0)
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 3);
         }
-        if(GetAxis(Axis.Horizontal) == 0 && GetAxis(Axis.Vertical) == 0)
-        {
-            anim.SetLayerWeight(1, 0);
-            anim.SetBool("Walking", false);
-            anim.SetBool("Idle", true);
-        }
+        //if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow))
+        //{
+        //    anim.SetLayerWeight(1, 0);
+        //    anim.SetBool("Walking", false);
+        //    anim.SetBool("Idle", true);
+        //}
 
-        return 1;
+#endif
+
+
+
+        //if (GetAxis(Axis.Horizontal) > 0)
+        //{
+        //    anim.SetBool("Walking", true);
+        //    anim.SetBool("Idle", false);
+        //    anim.SetInteger("Direction", 2);
+        //}else if(GetAxis(Axis.Horizontal) < 0)
+        //{
+        //    anim.SetBool("Walking", true);
+        //    anim.SetBool("Idle", false);
+        //    anim.SetInteger("Direction", 4);
+        //}
+        //if (GetAxis(Axis.Vertical) > 0)
+        //{
+        //    anim.SetBool("Walking", true);
+        //    anim.SetBool("Idle", false);
+        //    anim.SetInteger("Direction", 1);
+        //}
+        //else if (GetAxis(Axis.Vertical) < 0)
+        //{
+        //    anim.SetBool("Walking", true);
+        //    anim.SetBool("Idle", false);
+        //    anim.SetInteger("Direction", 3);
+        //}
+        //if(GetAxis(Axis.Horizontal) == 0 && GetAxis(Axis.Vertical) == 0)
+        //{
+        //    anim.SetLayerWeight(1, 0);
+        //    anim.SetBool("Walking", false);
+        //    anim.SetBool("Idle", true);
+        //}
     }
 
     private void MoveHorizontal(float movement){
