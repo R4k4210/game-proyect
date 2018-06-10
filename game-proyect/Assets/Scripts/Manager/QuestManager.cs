@@ -18,5 +18,6 @@ public class QuestManager : MonoBehaviour {
         this.journal.registerProgress(entityID, GoalType.RECOLLECT, quantity, JournalAction.ADD);
     }
 
+    //Metodo para obtener misiones en curso y mostrar progreso
  
 }

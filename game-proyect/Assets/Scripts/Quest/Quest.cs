@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Quest {
 
-    public int id { get; set; }
-    public string title { get; set; }
+    public int id { get; private set; }
+    public string title { get; private set; }
     public string description { get; private set; }
     public List<Goal> goals { get; private set; }
 

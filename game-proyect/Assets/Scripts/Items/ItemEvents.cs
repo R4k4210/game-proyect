@@ -21,7 +21,6 @@ public class ItemEvents : MonoBehaviour {
         }        
     }
 
-
     void Start() { }
 
     void Update() {
