@@ -1307,8 +1307,8 @@ GameObject:
   - component: {fileID: 183173264}
   - component: {fileID: 183173266}
   - component: {fileID: 183173265}
-  - component: {fileID: 183173268}
   - component: {fileID: 183173267}
+  - component: {fileID: 183173268}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -1890,8 +1890,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95bed0b263412d149aa61993bc9ceeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportType: 0
-  target: objetivo
+  teleportType: 1
+  target: 
   VectorTarget: {x: 0, y: 0, z: 0}
   Objetive: {fileID: 0}
 --- !u!1 &186691160
@@ -5648,10 +5648,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95bed0b263412d149aa61993bc9ceeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportType: 0
+  teleportType: 2
   target: 
   VectorTarget: {x: 0, y: 0, z: 0}
-  Objetive: {fileID: 0}
+  Objetive: {fileID: 961951145}
 --- !u!212 &648334249
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5704,7 +5704,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648334247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.06, y: 5.14, z: 0}
+  m_LocalPosition: {x: 0.12, y: 1.6, z: 0}
   m_LocalScale: {x: 0.9073769, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7673,6 +7673,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920064489}
+--- !u!1 &920954706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 920954707}
+  m_Layer: 0
+  m_Name: New Game Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &920954707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920954706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926055045
 GameObject:
   m_ObjectHideFlags: 0
@@ -7958,13 +7986,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 961951145}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c2ef3b8e67b1f4b9e6438421686937, type: 3}
+  m_Script: {fileID: 11500000, guid: 95bed0b263412d149aa61993bc9ceeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flag: 0
-  i: 61
+  teleportType: 1
+  target: 
+  VectorTarget: {x: -20, y: 0, z: 0}
+  Objetive: {fileID: 0}
 --- !u!1 &972138978
 GameObject:
   m_ObjectHideFlags: 0
@@ -15170,7 +15200,7 @@ TilemapCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15180,15 +15210,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2055044074}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95bed0b263412d149aa61993bc9ceeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportType: 0
-  target: objetivo
-  VectorTarget: {x: 0, y: 0, z: 0}
-  Objetive: {fileID: 0}
+  teleportType: 1
+  target: 
+  VectorTarget: {x: -20, y: 0, z: 0}
+  Objetive: {fileID: 920954706}
 --- !u!483693784 &2055044078
 TilemapRenderer:
   m_ObjectHideFlags: 0

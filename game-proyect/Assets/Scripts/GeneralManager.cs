@@ -30,12 +30,12 @@ public class GeneralManager : MonoBehaviour {
 
         player = (GameObject)Instantiate(player, startpoint, player.transform.rotation);
         CharacterEntity stats = player.GetComponent<CharacterEntity>();
-        stats.Nombre = "Erdrako";
-        stats.Nivel = 1;
-        stats.DañoBase = 10;
-        stats.DefensaBase = 10;
+        stats.name = "Erdrako";
+        stats.Level = 1;
+        stats.BaseDamage = 10;
+        stats.BaseDefense = 10;
         stats.Hp = 100;
-        stats.Velocidad = 2;
+        stats.MoveSpeed = 2;
         camara = (GameObject)Instantiate(camara, new Vector3(startpoint.x, startpoint.y, -600), camara.transform.rotation);
 
     }

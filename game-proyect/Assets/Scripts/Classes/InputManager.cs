@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputManager : MonoBehaviour {
 
     private GeneralManager gameManager;
+    private CharacterEntity character;
     private float xAxis;
     private float yAxis;
     private float moveSpeed=1;
@@ -20,10 +21,12 @@ public class InputManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         gameManager = GetComponent<GeneralManager>();
+        character = gameManager.player.GetComponent<CharacterEntity>();
         //rigid is the main character being controlled by this manager, to affect other entities modify this. Probably will need refactoring in future versions.
         rigid = gameManager.player.GetComponent<Rigidbody2D>();
         anim = gameManager.player.GetComponent<Animator>();
     }
+
 
     public void GetVerticalInput(Vertical input) {
         if (input == Vertical.up) {
@@ -33,9 +36,11 @@ public class InputManager : MonoBehaviour {
         }
     }
 
+
     public void ResetVerticalInput() {
         yAxis = 0;
     }
+
 
     public void GeHorizontalInput(Horizontal input) {
         if (input == Horizontal.right) {
@@ -45,9 +50,11 @@ public class InputManager : MonoBehaviour {
         }
     }
 
+
     public void ResetHorizontalInput() {
         xAxis = 0;
     }
+
 
     private float GetAxis(Axis axis)
     {
@@ -116,37 +123,6 @@ public class InputManager : MonoBehaviour {
 
 #endif
 
-
-
-        //if (GetAxis(Axis.Horizontal) > 0)
-        //{
-        //    anim.SetBool("Walking", true);
-        //    anim.SetBool("Idle", false);
-        //    anim.SetInteger("Direction", 2);
-        //}else if(GetAxis(Axis.Horizontal) < 0)
-        //{
-        //    anim.SetBool("Walking", true);
-        //    anim.SetBool("Idle", false);
-        //    anim.SetInteger("Direction", 4);
-        //}
-        //if (GetAxis(Axis.Vertical) > 0)
-        //{
-        //    anim.SetBool("Walking", true);
-        //    anim.SetBool("Idle", false);
-        //    anim.SetInteger("Direction", 1);
-        //}
-        //else if (GetAxis(Axis.Vertical) < 0)
-        //{
-        //    anim.SetBool("Walking", true);
-        //    anim.SetBool("Idle", false);
-        //    anim.SetInteger("Direction", 3);
-        //}
-        //if(GetAxis(Axis.Horizontal) == 0 && GetAxis(Axis.Vertical) == 0)
-        //{
-        //    anim.SetLayerWeight(1, 0);
-        //    anim.SetBool("Walking", false);
-        //    anim.SetBool("Idle", true);
-        //}
     }
 
     private void MoveHorizontal(float movement){
@@ -169,7 +145,7 @@ public class InputManager : MonoBehaviour {
     private void MovementManager(int movementType)
     {
         speedFactor = (gameManager.player.transform.localScale.x + gameManager.player.transform.localScale.y)/2;
-        moveSpeed = gameManager.player.GetComponent<CharacterEntity>().Velocidad*speedFactor;
+        moveSpeed = character.MoveSpeed*speedFactor;
         //Use case 4, ignore other cases.
         switch (movementType)
         {

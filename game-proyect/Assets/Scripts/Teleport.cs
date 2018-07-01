@@ -26,6 +26,10 @@ public class Teleport : MonoBehaviour {
 
     
     void Start () {
+        if(Objetive == null)
+        {
+            Objetive = new GameObject();
+        }
         switch (teleportType)
         {
             case TeleportType.Coordenadas:
