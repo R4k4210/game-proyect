@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Enums;
 
 public class InputManager : MonoBehaviour {
 
@@ -14,9 +15,7 @@ public class InputManager : MonoBehaviour {
     Rigidbody2D rigid;
     Animator anim;
 
-    public enum Horizontal { left,right}
-    public enum Vertical { up,down}
-    public enum Axis { Horizontal,Vertical}
+    
 
     // Use this for initialization
     void Start () {
@@ -54,9 +53,9 @@ public class InputManager : MonoBehaviour {
     public void ResetHorizontalInput() {
         xAxis = 0;
     }
+    
 
-
-    private float GetAxis(Axis axis)
+    private float GetAxis(Enums.Axis axis)
     {
         float retorno = 0;
 #if UNITY_ANDROID
@@ -72,10 +71,10 @@ public class InputManager : MonoBehaviour {
 #if UNITY_STANDALONE
         switch (axis)
         {
-            case Axis.Horizontal:
+            case Enums.Axis.Horizontal:
                 retorno = Input.GetAxis("Horizontal");
                 break;
-            case Axis.Vertical:
+            case Enums.Axis.Vertical:
                 retorno = Input.GetAxis("Vertical");
                 break;
         }
@@ -86,33 +85,48 @@ public class InputManager : MonoBehaviour {
     private void GetDirection()
     {
         //Make the movement weight 1, if it is 0, u cant see the movement.
-
+        
         anim.SetLayerWeight(1, 1);
 #if UNITY_STANDALONE
-
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        //Input.getbu
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 4);
         }
-         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 2);
         }
-         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 1);
         }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             anim.SetBool("Walking", true);
             anim.SetBool("Idle", false);
             anim.SetInteger("Direction", 3);
+        }
+        if (
+            !Input.GetKey(KeyCode.A) &&
+            !Input.GetKey(KeyCode.LeftArrow) &&
+            !Input.GetKey(KeyCode.D) &&
+            !Input.GetKey(KeyCode.RightArrow) &&
+            !Input.GetKey(KeyCode.W) &&
+            !Input.GetKey(KeyCode.UpArrow) &&   
+            !Input.GetKey(KeyCode.S) &&
+            !Input.GetKey(KeyCode.DownArrow))
+        {
+            anim.SetLayerWeight(1, 0);
+            anim.SetBool("Walking", false);
+            anim.SetBool("Idle", true);
+            //anim.SetInteger("Direction", 3);
         }
         //if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow))
         //{
@@ -211,7 +225,6 @@ public class InputManager : MonoBehaviour {
                 GetDirection();
                 MoveHorizontal(GetAxis(Axis.Horizontal));
                 MoveVertical(GetAxis(Axis.Vertical));
-                
                 break;
             default:
                 break;
@@ -220,6 +233,10 @@ public class InputManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetButton("Ataque1"))
+        {
+            Debug.Log("1");
+        }
         MovementManager(4);
 	}
 }
